@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "@tanstack/react-router";
 
 class ErrorBoundary extends Component {
   state = { hasError: false };
